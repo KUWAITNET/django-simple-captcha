@@ -4,10 +4,10 @@ include README.rst
 include CHANGES
 include tox.ini
 include .pep8
-recursive-include captcha/fonts *
-recursive-include captcha/locale *
-recursive-include captcha/templates *
-recursive-include captcha/jinja2 *
+recursive-include s_captcha/fonts *
+recursive-include s_captcha/locale *
+recursive-include s_captcha/templates *
+recursive-include s_captcha/jinja2 *
 recursive-include testproject *
 recursive-include docs *
 exclude testproject/django-simple-captcha.db
