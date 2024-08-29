@@ -18,7 +18,7 @@ CAPTCHA_CHALLENGE_FUNCT = getattr(
 CAPTCHA_NOISE_FUNCTIONS = getattr(
     settings,
     "CAPTCHA_NOISE_FUNCTIONS",
-    ("captcha.helpers.noise_arcs", "s_captcha.helpers.noise_dots"),
+    ("s_captcha.helpers.noise_arcs", "s_captcha.helpers.noise_dots"),
 )
 CAPTCHA_FILTER_FUNCTIONS = getattr(
     settings, "CAPTCHA_FILTER_FUNCTIONS", ("s_captcha.helpers.post_smooth",)
