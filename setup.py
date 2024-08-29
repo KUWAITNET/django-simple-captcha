@@ -3,7 +3,7 @@ import sys
 from setuptools import find_packages, setup
 from setuptools.command.test import test as test_command
 
-from captcha import get_version as get_captcha_version
+from s_captcha import get_version as get_captcha_version
 
 
 class Tox(test_command):
@@ -32,7 +32,7 @@ class Tox(test_command):
 
 
 install_requires = [
-    "Django >= 4.2",
+    "Django >= 3.2",
     "Pillow >=6.2.0",
     "django-ranged-response == 0.2.0",
 ]
